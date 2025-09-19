@@ -1,0 +1,15 @@
+# Core deep learning framework
+torch>=2.0.0
+
+# Hugging Face library for the NER model and tokenizer
+transformers>=4.30.0
+
+# Library for sentence embeddings and semantic similarity (Task 6)
+sentence-transformers>=2.2.2
+
+# Library for approximate string matching (Task 6)
+# The [speedup] option installs python-Levenshtein for better performance
+thefuzz[speedup]>=0.20.0
+
+# For running the .ipynb notebook
+notebook>=7.0.0
